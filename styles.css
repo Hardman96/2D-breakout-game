@@ -1,0 +1,126 @@
+/*  These are universal styles which will be applied to all pages. All code on this page is written by myself. */
+
+/* This will style all body tags on each page */
+body{
+  background: #2577AF;                                                          /* adds a background color. */
+}
+
+/* This styles all nav tags on each web page */
+.menu{
+  position: absolute;                                                           /*seperate from document flow, will site on its own layer from everything else.*/
+  left: 1700px;                                                                 /*positioning value, X axis*/
+  top: 10px;                                                                    /*positioning value, y axis*/
+  font-size: 25px;                                                              /*font size modifier*/
+  background-color: yellow;                                                     /*Adds a background to the menu*/
+}
+
+/*Will emphasise key text enclosed by em tags*/
+em{
+  color: #11EA15;                                                               /*Adds colour to enclosed text*/
+}
+
+/*############################### About Page ##################################*/
+
+/* These are styles unique to the about.html page. */
+
+/*calls a class matching the name after the dot symbol*/
+.mainContent_1{
+  position: absolute;
+  font-family: "Comic Sans MS";                                                 /*applies the specified font to characters*/
+  font-size: 20px;
+  letter-spacing: 0.8px;                                                        /*Adds specified spacing between letters*/
+  word-spacing: 1px;                                                            /*Adds specified spacing between words*/
+  color: #010507;                                                               /*Applies a color to all elements included in this class, unless specifically overrided*/
+  font-weight: 700;                                                             /*Applies thickness/boldness to text, depending on specified value.*/
+  font-style: italic;                                                           /*applies the specified font style to characters.*/
+  height: 100px;                                                                /*Height of the border/container the contents are contained in*/
+  width: 1000px;                                                                /*Width of container the contents of this class are contained in.*/
+  top: 1px;
+  left: 80px;
+}
+
+h1{
+  font-family: "Arial Black";
+  font-size: 30px;
+  text-decoration: underline solid rgb(179, 5, 5);                              /*Adds an underline to the contents of this tag, the colour will also be specified */
+  position: relative;                                                           /*Position will be made relative to the parent class, which is absolute. */
+  top: 5px;
+  left: 160px;
+}
+
+.mainContent_2{
+  position: absolute;
+  font-family: "Comic Sans MS";
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  word-spacing: 1px;
+  color: #010507;
+  font-weight: 700;
+  font-style: italic;
+  height: 100px;
+  width: 1000px;
+  top: 300px;
+  left: 850px;
+}
+
+h2{
+  position: relative;
+  font-family: "Arial Black";
+  font-size: 30px;
+  text-decoration: underline solid rgb(231, 13, 239);
+  top: 5px;
+  left: 260px;
+  width: 800px;
+}
+
+.mainContent_3{
+  position: absolute;
+  font-family: "Comic Sans MS";
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  word-spacing: 1px;
+  color: #010507;
+  font-weight: 700;
+  font-style: italic;
+  height: 100px;
+  width: 700px;
+  top: 405px;
+  left: 80px;
+}
+
+h3{
+  position: relative;
+  font-family: "Arial Black";
+  font-size: 23px;
+  text-decoration: underline solid rgb(239, 131, 24);
+  top: 10px;
+  left: 50px;
+}
+
+/*############################### Help Page ###################################*/
+
+/* These are styles unique to the help.html page. */
+
+.mainContent_4{
+  position: absolute;
+  font-family: "Comic Sans MS";
+  font-size: 30px;
+  letter-spacing: 0.8px;
+  word-spacing: 1px;
+  color: #010507;
+  font-weight: 700;
+  font-style: italic;
+  height: 200px;
+  width: 1500px;
+  top: 1px;
+  left: 80px;
+}
+
+h4{
+  position: relative;
+  font-family: "Arial Black";
+  font-size: 40px;
+  text-decoration: underline solid rgb(246, 246, 16);
+  top: 5px;
+  left: 50px;
+}
